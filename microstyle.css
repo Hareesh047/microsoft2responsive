@@ -1,0 +1,224 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.header {
+ width: 95%;
+ margin: 0 auto;
+
+}
+
+.logo {
+    height: 40px;
+}
+
+.carticon {
+    height: 20px;
+}
+.content {
+    width: 95%;
+    margin: auto;
+    background: #000;
+    height: 500px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+ .carousel-item {
+    position: relative;
+    z-index: 1;
+
+ } 
+ .carousel-caption {
+
+    position:absolute;
+    top: 170px;
+    left: 9% !important;
+ }
+ .carousel-caption h5 ,p {
+    text-align: left;
+    color: #000;
+}
+ .learn {
+    position:absolute;
+    left: 0;
+    color:white;
+    background-color: #000;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+ }
+
+ .new {
+    position:absolute;
+    top: -20px;
+    left: 15px;
+    color:#950c17;
+    background-color:white;
+    font-size: 15px;
+    
+    border: none;
+
+ }
+
+.card-title {
+    display: inline;
+    background: #950c17;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.375em 0.75em;
+    cursor: pointer;
+    text-align: left;
+ }
+ 
+
+ main {
+    width: 95%;
+    margin: auto;
+ }
+ .card-body{
+    border-width:  0px;
+    border-color: none;
+    border:none !important;
+ }
+ .card {
+    border-width:  0px;
+    border-color: none;
+    border:none !important;
+    margin-top: 20px;
+}
+
+.link {
+    color: #950c17;
+    text-decoration: none;
+    padding: 3px;
+
+}
+
+.title {
+    font-size: 1.8125rem;
+}
+
+.edge {
+    width: 95%;
+    height: 600px;
+    background-image: url(../microsoftnew/icons/second\ main.avif);
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+ 
+.second {
+
+background-color: white;
+padding: 10px;
+
+}
+.surface {
+    font-size: 2.3125rem;
+   font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+    cursor: pointer;
+}
+
+
+.p2{ font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+
+}
+
+
+.download {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+.card {
+    margin-top: 20px;
+}
+.social {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+#rs {
+    align-items: center;
+    width: 60%;
+}
+
+#follow {
+  min-width: 150px;
+}
+
+footer {
+    
+    background-color: #d3d3d3;
+  
+
+}
+
+.bottom {
+    width: 95%;
+    margin: auto;
+    
+    padding: 40px 0;
+
+
+}
+.wn {
+    margin-left: 35px;
+}
+footer li{
+    list-style: none;
+    line-height: 2;
+}
+footer a {
+
+    text-decoration: none;
+    color: #818181;
+}
+
+.btmicon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+    
+}
+.p1 {
+    margin-bottom: 0;
+}
+
+.lang {
+    width: 20px;
+    height: 20px;
+}
+.contact {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact div{
+    display: inline-block;
+    margin-inline: 5px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
